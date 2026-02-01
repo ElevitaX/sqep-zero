@@ -11,6 +11,19 @@
 
 ---
 
+## Ecosystem
+
+SQEP-Zero is part of the **ElevitaX SQEP ecosystem**:
+
+| Repository | Purpose |
+|------------|---------|
+| **[sqep-zero](https://github.com/ElevitaX/sqep-zero)** | HashChain & verifiable receipts — *the standard* |
+| **[sqep-lite](https://github.com/ElevitaX/sqep-lite)** | Lightweight authenticated encryption library |
+
+`sqep-lite` powers the cryptographic primitives used internally by SQEP-Zero.
+
+---
+
 ## What is SQEP-Zero?
 
 **SQEP-Zero** (Secure Quantum Encryption Protocol — Zero) is an open cryptographic standard that enables anyone to **prove** — not just claim — that a digital action occurred.
