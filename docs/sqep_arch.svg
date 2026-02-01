@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="720" viewBox="0 0 1080 720">
+  <defs>
+    <style>
+      .box { fill:#0f172a; stroke:#94a3b8; stroke-width:2; rx:14; ry:14; }
+      .title { fill:#e2e8f0; font: 700 20px Arial, sans-serif; }
+      .text { fill:#cbd5e1; font: 400 16px Arial, sans-serif; }
+      .arrow { stroke:#94a3b8; stroke-width:2; marker-end:url(#arrowhead); fill:none; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <!-- Browser -->
+  <rect class="box" x="40" y="60" width="260" height="140"/>
+  <text class="title" x="60" y="90">Browser (SZ / QTV / Chat)</text>
+  <text class="text" x="60" y="120">EN/FR - Theme - QSeed UI</text>
+
+  <!-- Nginx -->
+  <rect class="box" x="360" y="60" width="200" height="140"/>
+  <text class="title" x="380" y="90">Nginx @ sqep.ai</text>
+  <text class="text" x="380" y="120">TLS - Routing</text>
+  <text class="text" x="380" y="145">/ -> Node</text>
+  <text class="text" x="380" y="170">/api -> Axum</text>
+
+  <!-- Node -->
+  <rect class="box" x="640" y="20" width="200" height="140"/>
+  <text class="title" x="660" y="50">Node/Express :8090</text>
+  <text class="text" x="660" y="80">Static + Proxy</text>
+  <text class="text" x="660" y="105">QTV - SZ - Chat</text>
+
+  <!-- Axum -->
+  <rect class="box" x="640" y="200" width="200" height="200"/>
+  <text class="title" x="660" y="230">Axum (Rust) :8080</text>
+  <text class="text" x="660" y="260">/v0 encrypt/decrypt</text>
+  <text class="text" x="660" y="285">/v1 journal/qpu</text>
+  <text class="text" x="660" y="310">/qseed enhance/wrap</text>
+
+  <!-- QSeed / Brain -->
+  <rect class="box" x="900" y="200" width="160" height="200"/>
+  <text class="title" x="915" y="230">QSeed Core</text>
+  <text class="text" x="915" y="260">Smoothness gov.</text>
+  <text class="text" x="915" y="285">SigmaZeroBrain</text>
+  <text class="text" x="915" y="310">ProofJournal</text>
+
+  <!-- Arrows -->
+  <line class="arrow" x1="300" y1="130" x2="360" y2="130"/>
+  <line class="arrow" x1="560" y1="130" x2="640" y2="90"/>
+  <line class="arrow" x1="560" y1="130" x2="640" y2="300"/>
+  <line class="arrow" x1="840" y1="300" x2="900" y2="300"/>
+</svg>
